@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Indie+Flower&display=swap');
+
+html{
+    background-color: black;
+}
+
+body{
+    font-family: 'Hachi Maru Pop',
+    cursive;
+}
+
+.mar{
+    margin-left: 2%;
+}
+
+p{
+    display: inline-block;
+    color: rgb(255, 0, 221);
+}
+
+input{
+    margin-left:5px;
+    margin-right:5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px solid;
+    color: #CCC;
+    padding: 6px;
+    width:10rem;
+}
+
+.porta{
+    margin-right:10px;
+    color: aqua;
+}
+
+h1{
+    font-family: 'Indie Flower',
+    cursive;
+    color: chartreuse;
+    margin: 2rem;
+}
+
+button {
+    padding: 9px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: #ffff;
+    background-color: rgb(132, 0, 255); 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: 'Pacifico', cursive;
+}
+
+button:hover {
+    background-color: #ea00ff;
+}
+
+button:active {
+    background-color: #ea00ff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

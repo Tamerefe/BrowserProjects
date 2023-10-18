@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body{
+    background-color: #f4f5f6;
+}
+
+.menupage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    padding: 0px;
+    width: 200px;
+    height: 210px;
+    cursor: pointer;
+    color: #f4f5f6;
+    border-width: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 4px #888888;
+    transition: .13s ease-in-out;
+
+}
+
+.-button {
+    padding: 100px;
+    cursor: pointer;
+    color: #f4f5f6;
+    border-width: 0;
+    border-radius: 20px;
+    transition: .13s ease-in-out;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    background-image: url("Click.png");
+    background-size: 80px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:active {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.button-text {
+    font-family: 'Balsamiq Sans',
+    cursive;
+    position: relative;
+    transform: translate3d(0px, -4px, 0px);
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    background-color: #888888;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    background-clip: text;
+    transition: 0.13s ease-in-out;
+}
+
+#myProgress {
+  display: inline-block;
+  margin-left: 25rem;
+  transform: rotate(270deg);
+  width: 25%;
+  background-color: #ddd;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+   background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}

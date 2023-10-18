@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Fredoka+One&display=swap');
+
+html{
+    background-image: url("Img/World.png");
+    background-repeat: no-repeat;
+    background-size: 87%; /* 87 */
+    background-position: top;
+    font-size: 192px;
+}
+
+.btn {
+    margin: 0.026rem;
+    position: absolute;
+    top: 0.26rem;
+    height: 0.073rem;
+    width: 0.073rem;
+    border-radius: 50%;
+    background-color: #A59E96;
+    cursor: pointer;
+    border: 1px solid rgb(30, 255, 0);
+    z-index: -1;
+}
+
+.btn-headBox{
+    position: absolute;
+    background: #d2601a;
+    color: #fff1e1;
+    padding: 0.03125rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.104rem;
+    margin: 0.015625rem;
+    min-width: 1.56rem;
+    font-family: 'Fredoka One',
+    cursive;
+}
+
+.btn-headBox:after {
+    content: '';
+    position: absolute;
+    right: 90%;
+    top: 100%;
+    border-top: 8px solid #d2601a;
+    border-right: 12px solid transparent;
+}
+
+.btn-chatBox{
+    width: 1.82rem;
+    margin: 0.156rem;
+    margin-top: 0.234rem;
+    position: absolute;
+    background: #fff1e1;
+    color:#1d3c45;
+    padding: 0.03125rem 0.052rem;
+    border-radius: 2px;
+    font-size: 0.084rem;
+    font-family: 'Itim',
+    cursive;
+}
+
+.displayN{
+    display:none;
+}
+
+
+/* W3 */
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 0.52rem;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    color: black;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 0.125rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    font-size: 0.167rem;
+    text-align: center;
+    padding: 0.084rem;
+    background-color: #240000;
+    color: white;
+}
+
+.modal-body {
+    padding: 0.042rem 0.084rem;
+}
+
+@media only screen and (max-width: 1920px) {
+    html {
+        font-size: 192px;
+    }
+}
+
+@media only screen and (max-width: 1820px) {
+    html {
+        font-size: 182px;
+    }
+}
+
+@media only screen and (max-width: 1720px) {
+    html {
+        font-size: 172px;
+    }
+}
+
+@media only screen and (max-width: 1620px) {
+    html {
+        font-size: 162px;
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    html {
+        font-size: 152px;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    html {
+        font-size: 142px;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    html {
+        font-size: 132px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    html {
+        font-size: 122px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    html {
+        font-size: 112px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    html {
+        font-size: 102px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    html {
+        font-size: 92px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    html {
+        font-size: 82px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    html {
+        font-size: 72px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    html {
+        font-size: 62px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    html {
+        font-size: 52px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    html {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 32px;
+    }
+}

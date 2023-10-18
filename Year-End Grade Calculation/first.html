@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="second.css">
+    <title>Grade</title>
+</head>
+<body>
+
+    <h1 align="center">Yıl Sonu Notları Ve Ders Notları Hesaplama Uygulamamıza Hosgeldiniz</h1>
+
+    <form style="color:aliceblue;">
+        <input type="radio" style="width:10px; margin-left: 4%;" value="r1" name="r10" id="R1" onclick="if(this.checked){
+        document.getElementById('1d').style.display = 'inline-block';
+        document.getElementById('2d').style.display = 'inline-block';
+        document.getElementById('3d').style.display = 'inline-block';
+        document.getElementById('4d').style.display = 'inline-block';
+        document.getElementById('5d').style.display = 'inline-block';
+        document.getElementById('6d').style.display = 'inline-block';
+        document.getElementById('7d').style.display = 'inline-block';
+        document.getElementById('8d').style.display = 'inline-block';
+        document.getElementById('9d').style.display = 'inline-block';
+        document.getElementById('10d').style.display = 'inline-block';
+        document.getElementById('11d').style.display = 'inline-block';
+        document.getElementById('12d').style.display = 'inline-block';
+        document.getElementById('13d').style.display = 'inline-block';}">
+        <label for="r1">9 / 10</label><br>
+        <input type="radio" style="width:10px; margin-left: 4%;" value="r2" name="r10" id="R2" onclick="if(this.checked){
+        document.getElementById('1d').style.display = 'inline-block';
+        document.getElementById('2d').style.display = 'inline-block';
+        document.getElementById('3d').style.display = 'inline-block';
+        document.getElementById('4d').style.display = 'inline-block';
+        document.getElementById('5d').style.display = 'inline-block';
+        document.getElementById('6d').style.display = 'inline-block';
+        document.getElementById('7d').style.display = 'none';
+        document.getElementById('8d').style.display = 'inline-block';
+        document.getElementById('9d').style.display = 'inline-block';
+        document.getElementById('10d').style.display = 'inline-block';
+        document.getElementById('11d').style.display = 'inline-block';
+        document.getElementById('12d').style.display = 'inline-block';
+        document.getElementById('13d').style.display = 'inline-block';}">
+        <label for="r2">11 Sayısal</label><br>
+        <input type="radio" style="width:10px; margin-left: 4%;" value="r3" name="r10" id="R3" onclick="if(this.checked){
+        document.getElementById('1d').style.display = 'inline-block';
+        document.getElementById('2d').style.display = 'inline-block';
+        document.getElementById('3d').style.display = 'inline-block';
+        document.getElementById('4d').style.display = 'inline-block';
+        document.getElementById('5d').style.display = 'inline-block';
+        document.getElementById('6d').style.display = 'none';
+        document.getElementById('7d').style.display = 'none';
+        document.getElementById('8d').style.display = 'inline-block';
+        document.getElementById('9d').style.display = 'inline-block';
+        document.getElementById('10d').style.display = 'inline-block';
+        document.getElementById('11d').style.display = 'inline-block';
+        document.getElementById('12d').style.display = 'inline-block';
+        document.getElementById('13d').style.display = 'inline-block';}">
+        <label for="r3">12 Sayısal</label>
+    </form>  
+
+<div class="mar"> 
+    <div id="1d"><p>  Matematik : 
+        <input type="text" id="Not1" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not1.1" placeholder="2. Sınav Notunuz" autocomplete="off">
+        <input type="text" id="Not1.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not1.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not1.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Matematik Notunuz : <p id="Notum1" style="color:white;"></p> </p> <br></div>
+
+    <div id="2d"><p>  Edebiyat : 
+        <input type="text" id="Not2" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not2.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not2.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not2.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not2.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Edebiyat Notunuz : <p id="Notum2" style="color:white;"></p> </p> <br></div>
+
+    <div id="3d"><p>  Kimya : 
+        <input type="text" id="Not3" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not3.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not3.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not3.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not3.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Kimya Notunuz : <p id="Notum3" style="color:white;"></p> </p> <br></div>
+        
+    <div id="4d"><p>  Fizik : 
+        <input type="text" id="Not4" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not4.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not4.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not4.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not4.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Fizik Notunuz : <p id="Notum4" style="color:white;"></p> </p> <br></div>
+     
+    <div id="5d"><p>  Biyoloji : 
+        <input type="text" id="Not5" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not5.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not5.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not5.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not5.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Biyoloji Notunuz : <p id="Notum5" style="color:white;"></p> </p> <br></div>
+
+    <div id="6d"><p>  Tarih : 
+        <input type="text" id="Not6" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not6.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not6.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not6.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not6.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Tarih Notunuz : <p id="Notum6" style="color:white;"></p> </p> <br></div>      
+
+    <div id="7d"><p>  Cografya : 
+        <input type="text" id="Not7" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not7.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not7.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not7.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not7.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Cografya Notunuz : <p id="Notum7" style="color:white;"></p> </p> <br></div>      
+
+
+    <div id="8d"><p>  İngilizce : 
+        <input type="text" id="Not8" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not8.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not8.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not8.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not8.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama İngilizce Notunuz : <p id="Notum8" style="color:white;"></p> </p> <br></div>      
+
+
+    <div id="9d"><p>  Almanca : 
+        <input type="text" id="Not9" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not9.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not9.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not9.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not9.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Almanca Notunuz : <p id="Notum9" style="color:white;"></p> </p> <br></div>      
+
+
+    <div id="10d"><p>  Din : 
+        <input type="text" id="Not10" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not10.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not10.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not10.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not10.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Din Notunuz : <p id="Notum10" style="color:white;"></p> </p> <br></div>      
+
+
+    <div id="11d"><p>  Beden : 
+        <input type="text" id="Not11" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not11.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not11.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not11.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not11.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Beden Notunuz : <p id="Notum11" style="color:white;"></p> </p> <br></div>      
+
+
+    <div id="12d"><p>  Görsel / Müzik :
+        <input type="text" id="Not12" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not12.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not12.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not12.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not12.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Görsel / Müzik Notunuz : <p id="Notum12" style="color:white;"></p> </p> <br></div>      
+
+
+    <div id="13d"><p>  Felsefe :
+        <input type="text" id="Not13" placeholder="1. Sınav Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not13.1" placeholder="2. Notunuz" autocomplete="off">
+        <input type="text" id="Not13.2" placeholder="1. Sözlü Notunuz (Zorunlu)" autocomplete="off">
+        <input type="text" id="Not13.3" placeholder="2. Sözlü Notunuz" autocomplete="off">
+        <input type="text" id="Not13.4" placeholder="Proje Notunuz (Seçtiyseniz)" autocomplete="off">
+    </p> <p class="porta"> Ortalama Felsefe Notunuz : <p id="Notum13" style="color:white;"></p> </p> <br></div>      
+
+<br><button onclick="fm()">Hesapla</button> <br>
+
+<p class="porta" style="color: chartreuse;">Toplam Not : </p><p id="Ananot" style="color:rgb(228, 97, 97);"> </p>
+
+</div> <br><br>
+
+
+
+<p style="font-size: 0.5rem;color: darkgray; margin-left:30%;">
+    Not Bu Hesaplama Sitesi Bey T, Tarafından Yapılmıştır Bütün Hakları Saklıdır.
+</p>
+
+
+
+    <script src="third.js" type="text/Javascript"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+html{
+    background-color: black;
+}
+
+.bg-copper{
+    background-color: #D29829;
+}
+
+.text-copper{
+    color: #D29829;
+}
+
+.bg-latte{
+    background-color: #F7F3E3;
+}
+
+.text-latte{
+    color: #F7F3E3;
+}
+
+.bg-fogra{
+    background-color: #071013;
+}
+
+.text-fogra{
+    color: #071013;
+}
+
+.bg-barn{
+    background-color: #6F1A07;
+}
+
+.text-barn{
+    color: #3B150D;
+}
+
+.bg-bistre{
+    background-color: #2B2118;
+}
+
+.text-bistre{
+    color: #2B2118;
+}

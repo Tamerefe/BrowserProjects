@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Varela+Round&display=swap');
+
+body{
+    background-color: #e8e8e8;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.textHead{
+    color: darkorange;
+    font-family: 'Courgette', cursive;
+    margin: 0.2rem;
+}
+
+.headParaf{
+    margin-top: 2.5rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.column {
+    text-shadow: rgb(255, 0, 0);
+    border: 0.25rem solid #ffffff;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    float: left;
+    width: 34%;
+    padding: 0.75rem;
+    margin: 4rem;
+    margin-top: 1rem;
+}
+
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+}
+
+.left {
+    display: none;
+    color: #ffffff;
+    position: absolute;
+    top: 57%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    display: none;
+    color: #ffffff;
+    position: absolute;
+    top: 57%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    background-color: #00ff28;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5rem;
+    box-shadow: 0px 0px 0px 0.5rem #888888;
+    border-width: 0;
+    background-image: url("Img/icon.png");
+    background-size: 7rem 7rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button:active {
+    padding: 5.1rem;
+    box-shadow: 0px 0px 0px 0.25rem #888888;
+    background-size: 6.75rem 6.75rem;   
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 300px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    font-size: 40px;
+    text-align: center;
+    color: #00ff28;
+    text-shadow: #000000 0px 0px 20px;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
