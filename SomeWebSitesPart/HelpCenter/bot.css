@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&?family=Open+Sans&display=swap');
+
+html{
+    background-image: url("Background2.jpg");
+}
+
+body{
+    color: white;
+    font-size: 24px;
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+.menupage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;  
+}
+
+.menubackground0{
+    background-color: #F9F3EE;
+    padding: 0.15rem;
+    border-radius: 1.25rem;
+}
+
+.menubackground1{
+    background-color: black;
+    padding: 0.4rem;
+    border-radius: 1.25rem;
+}
+
+.menubackground2 {
+    background-color: #18181a;
+    padding: 1rem;
+    padding-top: 0;
+    width: 250px;
+    height: 550px;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.menuheader {
+    margin: 0rem;
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
+}
+
+.text-panel{
+    background-color: #18181a;
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+.panel-settings{
+    float: right; 
+    padding-bottom:0; 
+    padding: 1rem;
+}
+
+.text-button{
+    cursor: pointer;
+	background-color:#fff;
+	color:black;
+	border-radius:10%;
+}
+
+.text-button:hover{
+    color:burlywood;
+}
+
+.text-button-emote{
+    padding: 1px;
+    border-radius:50%;
+    width: 23px;
+    height: 24px;
+    cursor: pointer;
+    background-color:#fff;
+    color:black;
+}
+
+.text-button-emote:hover {
+    color: burlywood;
+}
+
+.text-button-emote:active {
+    transform: translateY(2px);
+}
+
+.text-input{
+    border: none;
+    height: 1.5rem;
+    width: 10rem;
+    background: #fff;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
