@@ -1,7 +1,6 @@
 # **Contents**
 
 * Click Speed Test
-* Dolliet Lottery
 * Not My World This is Real
 * Password Generator
 *SomeWebsitesPart*
